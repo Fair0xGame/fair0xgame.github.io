@@ -1,0 +1,17 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.homePage{
+    position: relative;
+    background-image: url("../../static/img/home/glow.png");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+}
+@media (max-width: 512px) {
+  .homePage{
+    background-position: top center;
+    background-size: 1200px 700px;
+  }
+}
