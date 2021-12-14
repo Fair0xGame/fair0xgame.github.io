@@ -37,7 +37,7 @@
     margin: 16px 0px;
 }
 .home-block2-r{
-    background: #92A0B7;
+    background: #EAF3FE;
     text-align: center;
 }
 .home-block2-r>img{
@@ -52,5 +52,8 @@
     }
     .home-block2-l{
         padding-bottom: 60px;
+    }
+    .home-block2-r>img{
+        max-height: 240px;
     }
 }
