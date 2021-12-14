@@ -1,9 +1,10 @@
 import React, {useMemo, useState} from "react";
 import './index.css'
 const Logo = require('../../../../static/img/logo.svg').default
-
+import useIsBrowser from '@docusaurus/useIsBrowser';
 export default function Header(){
   const [scrollTop, setScrollTop] = useState(0)
+  const isBrowser = useIsBrowser();
   const handleScroll = (event) => {
     const scrollTop_ = (event.srcElement ? event.srcElement.documentElement.scrollTop : false)
       || window.pageYOffset
@@ -15,9 +16,11 @@ export default function Header(){
     }
   }
   useMemo(()=>{
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [])
+    if (isBrowser){
+      window.addEventListener('scroll', handleScroll)
+      return () => window.removeEventListener('scroll', handleScroll);
+    }
+  }, [isBrowser])
   return (
     <div className={'header ' + (scrollTop > 0 ? 'header-w' : 'header-t')}>
       <Logo className="logo" alt=""/>
