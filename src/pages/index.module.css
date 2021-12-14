@@ -5,6 +5,7 @@
 
 .homePage{
     position: relative;
+    width: 100%;
     background-image: url("../../static/img/home/glow.png");
     background-repeat: no-repeat;
     background-size: 100% 900px;

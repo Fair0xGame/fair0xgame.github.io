@@ -6,13 +6,15 @@ const BarSmall = require('../../../../static/img/home/bar-small-white.svg').defa
 export default function Block3(){
   return (
     <div className="home-block3">
-      <div className="home-block3-l">
-        <img src={Marketplace} alt=""/>
-      </div>
-      <div className="home-block3-r">
-        <BarSmall/>
-        <h1>Marketplace</h1>
-        <p>A solution for game designer and player to mint, trade NFT props.</p>
+      <div className="home-block3-box">
+        <div className="home-block3-l">
+          <img src={Marketplace} alt=""/>
+        </div>
+        <div className="home-block3-r">
+          <BarSmall/>
+          <h1>Marketplace</h1>
+          <p>A solution for game designer and player to mint, trade NFT props.</p>
+        </div>
       </div>
     </div>
   )

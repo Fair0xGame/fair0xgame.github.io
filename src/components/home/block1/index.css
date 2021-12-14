@@ -1,12 +1,14 @@
 .home-block1{
-    max-width: 1500px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 12px 80px 12px;
     background-image: url("../../../../static/img/home/bar-block.png");
     background-position: bottom;
     background-repeat: repeat-x;
+}
+.home-block1-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 12px 80px 12px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .home-block1-item{
@@ -50,7 +52,7 @@
     margin: 16px 0px;
 }
 @media (max-width: 512px) {
-    .home-block1{
+    .home-block1-box{
         grid-template-columns: 1fr;
     }
     .home-block1-item>.home-block1-item-svg{

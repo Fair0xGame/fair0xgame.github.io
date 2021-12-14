@@ -22,13 +22,15 @@ export default function Header(){
     }
   }, [isBrowser])
   return (
-    <div className={'header ' + (scrollTop > 0 ? 'header-w' : 'header-t')}>
-      <Logo className="logo" alt=""/>
-      <div className="logo-txt">
-        <p>FAIR</p>
-        <p>PROTOCOL</p>
+      <div className={'header ' + (scrollTop > 0 ? 'header-w' : 'header-t')}>
+        <div className="header-box">
+          <Logo className="logo" alt=""/>
+          <div className="logo-txt">
+            <p>FAIR</p>
+            <p>PROTOCOL</p>
+          </div>
+        </div>
       </div>
-    </div>
   )
 }
 

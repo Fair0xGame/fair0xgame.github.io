@@ -1,15 +1,20 @@
 .home-block3{
-    display: grid;
-    padding: 90px 0;
-    grid-template-columns: 1fr 1fr;
     background-image: url("../../../../static/img/home/marketplace-bg.png");
     background-size: 100% auto;
     background-position: center center;
+}
+.home-block3-box{
+    display: grid;
+    padding: 90px 0;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
 }
 .home-block3-l{
     position: relative;
     display: flex;
     align-items: center;
+    padding-right: 40px;
 }
 .home-block3-l>img{
     width: 100%;
@@ -51,7 +56,7 @@
     color: #ffffff;
 }
 @media (max-width: 512px) {
-    .home-block3{
+    .home-block3-box{
         grid-template-columns: 1fr;
         padding: 60px 0;
     }
@@ -59,6 +64,7 @@
         height: 150px;
         margin-bottom: 60px;
         overflow: hidden;
+        padding-right: 0;
     }
     .home-block3-l>img{
         position: absolute;
@@ -67,5 +73,11 @@
         transform: translate(-50%, -50%);
         width: 120%;
         max-width: 120%;
+    }
+    .home-block3-r h1{
+        font-size: 28px;
+    }
+    .home-block3-r p{
+        margin: 0;
     }
 }

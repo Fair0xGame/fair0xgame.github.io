@@ -30,15 +30,17 @@ const list = [
 export default function Block1(){
   return (
     <div className="home-block1">
-      {
-        list.map((item, index) => (
-          <div className="home-block1-item" key={index}>
-            <item.Svg className="home-block1-item-svg"/>
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
-          </div>
-        ))
-      }
+      <div className="home-block1-box">
+        {
+          list.map((item, index) => (
+            <div className="home-block1-item" key={index}>
+              <item.Svg className="home-block1-item-svg"/>
+              <h2>{item.title}</h2>
+              <p>{item.desc}</p>
+            </div>
+          ))
+        }
+      </div>
     </div>
   )
 }

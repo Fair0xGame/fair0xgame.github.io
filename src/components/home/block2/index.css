@@ -1,6 +1,11 @@
 .home-block2{
+    background: #F5F9FF;
+}
+.home-block2-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
 }
 .home-block2-l{
     display: flex;
@@ -44,8 +49,11 @@
     height: 100%;
     max-width: 100%;
 }
+.dao-guild-h5{
+    display: none;
+}
 @media (max-width: 512px) {
-    .home-block2{
+    .home-block2-box{
         display: flex;
         flex-direction: column-reverse;
         grid-template-columns: 1fr;
@@ -56,5 +64,17 @@
     .home-block2-r>img{
         width: 100%;
         height: auto;
+    }
+    .dao-guild-pc{
+        display: none;
+    }
+    .dao-guild-h5{
+        display: block;
+    }
+    .home-block2-l p{
+        margin: 0;
+    }
+    .home-block2-l h1{
+        font-size: 28px;
     }
 }

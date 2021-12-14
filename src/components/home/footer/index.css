@@ -1,13 +1,19 @@
 .footer{
+    background: #14171A;
     display: flex;
     align-items: center;
     height: 80px;
-    background: #14171A;
+}
+.footer-box{
+    width: 1200px;
+    max-width: 100vw;
     padding: 0 24px;
     font-size: 16px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.8);
     font-family: Barlow;
+    display: flex;
+    margin: auto;
 }
 .footer-l{
     flex: 1;

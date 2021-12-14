@@ -1,6 +1,11 @@
 .home-block4{
+    background: #E6FAF0;
+}
+.home-block4-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
 }
 .home-block4-l{
     display: flex;
@@ -46,19 +51,19 @@
     max-width: 100%;
 }
 @media (max-width: 512px) {
-    .home-block4{
+    .home-block4-box{
         display: flex;
         flex-direction: column-reverse;
         grid-template-columns: 1fr;
-        padding-top: 60px;
     }
     .home-block4-l{
         padding-bottom: 60px;
     }
     .home-block4-r{
-        height: 150px;
-        margin-bottom: 60px;
+        height: 200px;
+        padding: 140px 0;
         overflow: hidden;
+        background: #F5FFFA;
     }
     .home-block4-r>img{
         position: absolute;
@@ -68,5 +73,11 @@
         width: 130%;
         height: 300px;
         max-width: 130%;
+    }
+    .home-block4-l h1{
+        font-size: 28px;
+    }
+    .home-block4-l p{
+        margin: 0;
     }
 }
