@@ -21,7 +21,9 @@
     color: #ffffff;
     min-height: 36px;
     line-height: 20px;
+    font-family: Barlow;
 }
+
 .home-banner-news-flex{
     display: flex;
     align-items: center;
@@ -29,9 +31,12 @@
 .home-banner-news-flex>div{
     flex: 1;
 }
-.home-banner-news-flex>div>span{
+.home-banner-news-flex>div>span:nth-child(2){
     font-weight: 200;
     margin-left: 12px;
+}
+.home-banner-news-flex>div>span:nth-child(1){
+    font-family: Barlow700;
 }
 .home-banner-news-arrow{
     margin-left: 12px;
@@ -44,6 +49,7 @@
     color: #14171A;
     font-size: 64px;
     text-align: center;
+    font-family: Barlow800;
 }
 .home-banner-title>span{
     display: inline-block;
@@ -57,6 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Barlow;
 }
 .home-banner-link>div{
     display: flex;

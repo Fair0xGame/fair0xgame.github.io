@@ -10,7 +10,7 @@
     background: #F5F9FF;
 }
 .home-block2-l>h1{
-    font-family: Barlow;
+    font-family: Barlow700;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -54,6 +54,7 @@
         padding-bottom: 60px;
     }
     .home-block2-r>img{
-        max-height: 240px;
+        width: 100%;
+        height: auto;
     }
 }

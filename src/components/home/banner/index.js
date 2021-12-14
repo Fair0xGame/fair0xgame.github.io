@@ -11,7 +11,7 @@ export default function Banner(){
         <div className="home-banner-news">
           <div className="home-banner-news-flex">
             <div>
-              <strong>News & Update</strong>
+              <span>News & Update</span>
               <span>FIP01 Fully endorsed by the round table to initiate ethereum sidechain upgrade plan.</span>
             </div>
             <ArrowSvg className="home-banner-news-arrow"/>

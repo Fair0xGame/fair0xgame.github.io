@@ -26,3 +26,16 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+@font-face {
+  font-family: Barlow;
+  src: url("../../static/font/Barlow-Regular.ttf");
+}
+
+@font-face {
+  font-family: Barlow700;
+  src: url("../../static/font/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: Barlow800;
+  src: url("../../static/font/Barlow-ExtraBold.ttf");
+}
