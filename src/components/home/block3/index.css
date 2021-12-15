@@ -5,7 +5,7 @@
 }
 .home-block3-box{
     display: grid;
-    padding: 90px 0;
+    height: 340px;
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
     margin: auto;
@@ -59,9 +59,10 @@
     .home-block3-box{
         grid-template-columns: 1fr;
         padding: 60px 0;
+        height: auto;
     }
     .home-block3-l{
-        height: 150px;
+        height: 180px;
         margin-bottom: 60px;
         overflow: hidden;
         padding-right: 0;

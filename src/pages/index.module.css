@@ -6,13 +6,19 @@
 .homePage{
     position: relative;
     width: 100%;
-    background-image: url("../../static/img/home/glow.png");
-    background-repeat: no-repeat;
-    background-size: 100% 900px;
+    overflow-x: hidden;
+}
+.homeBG{
+    position: absolute;
+    left: 50%;
+    top: -200px;
+    transform: translateX(-50%);
+    max-width: 1400px;
+    z-index: -1;
+    width: 1400px;
 }
 @media (max-width: 512px) {
   .homePage{
     background-position: top center;
-    background-size: 1200px 700px;
   }
 }

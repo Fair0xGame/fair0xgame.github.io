@@ -1,6 +1,6 @@
 import React, {useMemo, useState} from "react";
 import './index.css'
-const Logo = require('../../../../static/img/logo.svg').default
+const Logo = require('../../../../static/img/logo-large.svg').default
 import useIsBrowser from '@docusaurus/useIsBrowser';
 export default function Header(){
   const [scrollTop, setScrollTop] = useState(0)
@@ -25,10 +25,6 @@ export default function Header(){
       <div className={'header ' + (scrollTop > 0 ? 'header-w' : 'header-t')}>
         <div className="header-box">
           <Logo className="logo" alt=""/>
-          <div className="logo-txt">
-            <p>FAIR</p>
-            <p>PROTOCOL</p>
-          </div>
         </div>
       </div>
   )
