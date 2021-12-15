@@ -1,0 +1,114 @@
+.home-block5{
+    background-color: #14171A;
+    /*height: 520px;*/
+    padding: 80px 0;
+    background-image: url("../../../../static/img/home/bar-block2.png");
+    background-repeat: repeat-x;
+    background-size: 40px 336px;
+    background-position-y: -10px;
+}
+.home-block5-title{
+    text-align: center;
+
+}
+.home-block5-title>h1{
+    font-family: Barlow700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.home-block5-title > p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+.home-block5-title > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.home-block5-title > div>a{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0066FF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+.home-block5-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: auto;
+}
+.home-block5-l{
+    position: relative;
+    text-align: center;
+    padding-right: 48px;
+    display: flex;
+    align-items: center;
+}
+.home-block5-l>img{
+    width: 564px;
+    max-width: 100%;
+}
+.home-block5-r{
+    padding-left: 20px;
+}
+.home-block5-r>p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0;
+}
+.home-block5-r>p:nth-child(2){
+    margin-top: 30px;
+}
+@media (max-width: 512px) {
+    .home-block5-box{
+        grid-template-columns: 1fr;
+        padding: 0 24px;
+    }
+    .home-block5-title>h1{
+        font-size: 28px;
+    }
+    .home-block5-l{
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .home-block5-l p{
+        margin: 0;
+    }
+}

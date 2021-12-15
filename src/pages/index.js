@@ -7,7 +7,9 @@ import Block1 from "../components/home/block1";
 import Block2 from "../components/home/block2";
 import Block3 from "../components/home/block3";
 import Block4 from "../components/home/block4";
+import Block5 from "../components/home/block5";
 import Footer from "../components/home/footer";
+import Block6 from "../components/home/block6";
 export default function Home() {
   return (
     <div className={style.homePage}>
@@ -18,6 +20,8 @@ export default function Home() {
       <Block2/>
       <Block3/>
       <Block4/>
+      <Block5/>
+      <Block6/>
       <Footer/>
     </div>
   );
