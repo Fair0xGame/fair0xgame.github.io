@@ -2,6 +2,7 @@ import React from "react";
 import './index.css'
 const BarSmallSvg = require('../../../../static/img/home/bar-small-green.svg').default
 const Custody = require('../../../../static/img/home/custody.png').default
+const CustodyClip = require('../../../../static/img/home/custody-clip.png').default
 
 export default function Block4(){
   return (
@@ -14,6 +15,7 @@ export default function Block4(){
         </div>
         <div className="home-block4-r">
           <img src={Custody} alt=""/>
+          <img src={CustodyClip} alt=""/>
         </div>
       </div>
     </div>

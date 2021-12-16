@@ -14,10 +14,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding-right: 40px;
 }
 .home-block3-l>img{
     width: 100%;
+}
+.home-block3-l>img:nth-child(2){
+    display: none;
 }
 
 .home-block3-r{
@@ -58,22 +60,19 @@
 @media (max-width: 512px) {
     .home-block3-box{
         grid-template-columns: 1fr;
-        padding: 60px 0;
         height: auto;
     }
     .home-block3-l{
-        height: 180px;
-        margin-bottom: 60px;
-        overflow: hidden;
-        padding-right: 0;
+        height: 300px;
     }
-    .home-block3-l>img{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 120%;
-        max-width: 120%;
+    .home-block3-l>img:nth-child(1){
+        display: none;
+    }
+    .home-block3-l>img:nth-child(2){
+        display: block;
+    }
+    .home-block3-r{
+        padding: 24px 24px 80px 24px;
     }
     .home-block3-r h1{
         font-size: 28px;

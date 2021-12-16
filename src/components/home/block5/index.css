@@ -69,13 +69,11 @@
 }
 .home-block5-l{
     position: relative;
-    text-align: center;
-    padding-right: 48px;
     display: flex;
     align-items: center;
 }
 .home-block5-l>img{
-    width: 564px;
+    width: 600px;
     max-width: 100%;
 }
 .home-block5-r{
@@ -99,6 +97,8 @@
 @media (max-width: 512px) {
     .home-block5-box{
         grid-template-columns: 1fr;
+    }
+    .home-block5-title{
         padding: 0 24px;
     }
     .home-block5-title>h1{
@@ -108,10 +108,11 @@
         padding: 0;
         margin-bottom: 15px;
     }
-    .home-block5-l p{
-        margin: 0;
-    }
     .home-block5-r{
         padding: 0;
+    }
+    .home-block5-r p{
+        margin: 0;
+        padding: 0 24px;
     }
 }
