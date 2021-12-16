@@ -7,13 +7,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fair',
-  tagline: 'Fair',
-  url: 'https://fair0xgame.github.io/',
+  tagline: 'Fair Game',
+  url: 'https://preview.fair.game/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'Fair', // Usually your GitHub org/user name.
+  organizationName: 'fair0xgame', // Usually your GitHub org/user name.
   projectName: 'Fair', // Usually your repo name.
 
   presets: [
