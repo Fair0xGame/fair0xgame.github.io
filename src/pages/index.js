@@ -10,9 +10,14 @@ import Block4 from "../components/home/block4";
 import Block5 from "../components/home/block5";
 import Footer from "../components/home/footer";
 import Block6 from "../components/home/block6";
+import Layout from '@theme/Layout';
 export default function Home() {
+
   return (
     <div className={style.homePage}>
+      <div style={{display: "none"}}>
+        <Layout><div></div></Layout>
+      </div>
       <img src={BG} className={style.homeBG} alt=""/>
       <Header/>
       <Banner/>

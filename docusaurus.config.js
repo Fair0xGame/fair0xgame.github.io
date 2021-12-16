@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Fair',
+  title: 'Fair Protocol',
   tagline: 'Fair Game',
   url: 'https://preview.fair.game/',
   baseUrl: '/',
