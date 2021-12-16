@@ -23,7 +23,7 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 0 0 40px 0;
+    margin: 40px 0;
 }
 .home-block6-l>p{
     font-family: Barlow;
@@ -137,5 +137,8 @@
     }
     .home-block6-r{
         padding: 24px 24px 0 24px;
+    }
+    .home-block6-l>h1{
+        margin: 0 0 40px 0;
     }
 }
