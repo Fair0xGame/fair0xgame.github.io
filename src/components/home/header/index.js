@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from "react";
 import './index.css'
-const Logo = require('../../../../static/img/logo-large.svg').default
 import useIsBrowser from '@docusaurus/useIsBrowser';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 export default function Header(){
   const [scrollTop, setScrollTop] = useState(0)
   const isBrowser = useIsBrowser();
@@ -21,10 +21,11 @@ export default function Header(){
       return () => window.removeEventListener('scroll', handleScroll);
     }
   }, [isBrowser])
+  const Logo = useBaseUrl('/img/logo-large.svg');
   return (
       <div className={'header ' + (scrollTop > 0 ? 'header-w' : 'header-t')}>
         <div className="header-box">
-          <Logo className="logo" alt=""/>
+          <img src={Logo} className="logo" alt=""/>
         </div>
       </div>
   )
