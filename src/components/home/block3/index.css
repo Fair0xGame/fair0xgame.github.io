@@ -58,6 +58,9 @@
     color: #ffffff;
 }
 @media (max-width: 512px) {
+    .home-block3{
+        background-size: cover;
+    }
     .home-block3-box{
         grid-template-columns: 1fr;
         height: auto;

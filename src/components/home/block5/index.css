@@ -95,6 +95,10 @@
     margin-top: 30px;
 }
 @media (max-width: 512px) {
+    .home-block5{
+        background-position-y: 0;
+        background-size: 32px 263px;
+    }
     .home-block5-box{
         grid-template-columns: 1fr;
     }
