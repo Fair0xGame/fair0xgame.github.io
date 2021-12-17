@@ -4,8 +4,6 @@
     padding: 80px 0;
     background-image: url("../../../../static/img/home/bar-block2.png");
     background-repeat: repeat-x;
-    background-size: 40px 336px;
-    background-position-y: -10px;
 }
 .home-block5-title{
     text-align: center;
@@ -26,7 +24,7 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 0 0 16px 0px;
 }
 .home-block5-title > p{
     font-family: Barlow;
@@ -97,7 +95,8 @@
 @media (max-width: 512px) {
     .home-block5{
         background-position-y: 0;
-        background-size: 32px 263px;
+        background-image: url("../../../../static/img/home/bar-block2.png");
+        /*background-size: 32px 263px;*/
     }
     .home-block5-box{
         grid-template-columns: 1fr;
