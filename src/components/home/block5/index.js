@@ -10,7 +10,7 @@ export default function Block5(){
         <h1>Alliance & Incubation</h1>
         <p>Jointly affiliated with Glink to foster the next generation game play.</p>
         <div>
-          <a href="#">Read More</a>
+          <a href="/pdf/PPT-compressed.pdf" target="_blank">Read More</a>
           <ArrowSvg/>
         </div>
       </div>

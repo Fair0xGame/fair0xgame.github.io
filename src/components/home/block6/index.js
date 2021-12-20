@@ -15,16 +15,16 @@ export default function Block6(){
           <p>Holding the token proves the active invovement in the  ecosystem hence is eligible for the ido, airdrop and genesis onboarding of new games.</p>
         </div>
         <div className="home-block6-r">
-          <div className="home-block6-r-item">
+          <a href="https://www.okex.com/trade-spot/fair-usdt" target="_blank" className="home-block6-r-item">
             <Arrow className="home-block6-r-arrow"/>
             <div><OKEX className="home-block6-r-item-logo"/></div>
             <p>OKEx</p>
-          </div>
-          <div className="home-block6-r-item">
+          </a>
+          <a href="https://www.huobi.com/en-us/exchange/fair_eth" target="_blank" className="home-block6-r-item">
             <Arrow className="home-block6-r-arrow"/>
             <div><Huobi className="home-block6-r-item-logo"/></div>
             <p>Huobi</p>
-          </div>
+          </a>
           <div className="home-block6-r-item">
             <span className="home-block6-r-coming">Coming Soon</span>
             <div><Uniswap className="home-block6-r-item-logo"/></div>

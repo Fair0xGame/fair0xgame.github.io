@@ -21,14 +21,14 @@ export default function Banner(){
           The first metaverse <span>game engine</span> sidechain built on ethereum.
         </h1>
         <div className="home-banner-link">
-          <div>
+          <a href="https://twitter.com/FairGameOnline" target="_blank">
             <img src={twitterImg} alt=""/>
             Twitter
-          </div>
-          <div>
+          </a>
+          <a href="https://discord.gg/bGZtPcABDm" target="_blank">
             <img src={discordImg} alt=""/>
             Discord
-          </div>
+          </a>
         </div>
       </div>
     </div>

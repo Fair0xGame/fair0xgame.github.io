@@ -67,7 +67,7 @@
     justify-content: center;
     font-family: Barlow;
 }
-.home-banner-link>div{
+.home-banner-link>a{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,10 +89,11 @@
     flex-grow: 0;
     line-height: 20px;
 }
-.home-banner-link>div:hover{
+.home-banner-link>a:hover{
     box-shadow: 0px 0px 1px rgba(18, 21, 26, 0.35), 0px 6px 12px rgba(0, 102, 255, 0.1);
+    text-decoration: none;
 }
-.home-banner-link>div>img{
+.home-banner-link>a>img{
     width: 18px;
     height: 18px;
     margin-right: 13px;
